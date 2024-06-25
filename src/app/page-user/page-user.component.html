@@ -1,0 +1,94 @@
+<div class="container">
+    <div class="form-inscription">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Mes recettes </h3>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-violet">Créer une recette</button>
+                </div>
+            </div>
+            <div class="table-container">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Nom recette</td>
+                            <td class="action-buttons">
+                                <button class="btn btn-primary btn-sm">Consulter</button>
+                                <button class="btn btn-warning btn-sm">Modifier</button>
+                                <button class="btn btn-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#deleteModal">Supprimer</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nom recette</td>
+                            <td class="action-buttons">
+                                <button class="btn btn-primary btn-sm">Consulter</button>
+                                <button class="btn btn-warning btn-sm">Modifier</button>
+                                <button class="btn btn-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#deleteModal">Supprimer</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nom recette</td>
+                            <td class="action-buttons">
+                                <button class="btn btn-primary btn-sm">Consulter</button>
+                                <button class="btn btn-warning btn-sm">Modifier</button>
+                                <button class="btn btn-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#deleteModal">Supprimer</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nom recette</td>
+                            <td class="action-buttons">
+                                <button class="btn btn-primary btn-sm">Consulter</button>
+                                <button class="btn btn-warning btn-sm">Modifier</button>
+                                <button class="btn btn-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#deleteModal">Supprimer</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nom recette</td>
+                            <td class="action-buttons">
+                                <button class="btn btn-primary btn-sm">Consulter</button>
+                                <button class="btn btn-warning btn-sm">Modifier</button>
+                                <button class="btn btn-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#deleteModal">Supprimer</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Nom Prénom</h3>
+            <div class="mb-3">
+                <label for="e-mail" class="form-label">Adresse mail:</label>
+                <input type="email" class="form-control" id="email" value="exemple@exemple.com" readonly>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Mot de passe:</label>
+                <input type="password" class="form-control" id="password" value="mot de passe" readonly>
+            </div>
+            <button type="submit" class="btn btn-violet">Modifier son mot de passe</button>
+        </div>
+    </div>
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModalLabel">Confirmer la suppression</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Voulez-vous supprimer cette recette ?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-confirm" data-bs-dismiss="modal">Confirmer</button>
+                    <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">Annuler</button>
+                </div>
+            </div>
+        </div>
+    </div>

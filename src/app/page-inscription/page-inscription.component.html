@@ -1,0 +1,28 @@
+<div class="container">
+    <main>
+    <div class="form-inscription">
+        <h3>Formulaire d'inscription</h3>
+        <form class="validation" novalidate>
+            <div class="mb-3">
+                <label for="e-mail" class="form-label">Adresse mail:</label>
+                <input type="email" class="form-control" id="email" required minlength="8">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Mot de passe:</label>
+                <input type="password" class="form-control" id="password" required>
+            </div>
+            <div class="mb-3">
+                <label for="confirm-password" class="form-label">Confirmer le mot de passe:</label>
+                <input type="password" class="form-control" id="confirm-password" required>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="terms" required>
+                <label class="form-check-label" for="terms">En cochant cette case, je confirme avoir pris
+                    connaissances des conditions générales d'utilisation</label>
+            </div>
+            <button type="submit" class="btn btn-violet">S'inscrire</button>
+            <p class="mt-3">Vous possédez déjà un compte ? <a href="connection.html">Se connecter</a></p>
+        </form>
+    </div>
+    </main>
+</div>

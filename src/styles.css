@@ -1,1 +1,118 @@
 /* You can add global styles to this file, and also import other style files */
+#navbar {
+    background-color: hsl(283, 46%, 51%, 93%) !important;
+}
+
+#footer {
+    background-color: hsl(283, 49%, 68%, 93%);
+    padding-left: 20px;
+}
+
+body {
+    background-color: #f4e0f4;
+}
+
+.form-inscription {
+    background-color: #f5e9e9;
+    border-radius: 30px;
+    padding: 40px;
+    max-width: 750px;
+    margin: 50px auto;
+}
+
+.form-check-label {
+    font-size: 14px;
+}
+
+.btn-violet {
+    background-color: #7a00b0 !important;
+    border-color: #a01be3 !important;
+    color: white !important;
+    border-radius: 30px !important;
+    padding: 10px 20px !important;
+}
+
+.btn-violet:hover {
+    background-color: #a01be3;
+    color: white;
+}
+
+.container-text {
+    align-items: center;
+    justify-content: center;
+    padding-top: 105px;
+}
+
+.text-box {
+    background-color: #f1cfcf;
+    border-radius: 30px;
+    padding: 40px;
+    height: 450px;
+}
+
+
+.table-container {
+    background-color: #f5e9e9;
+    border-radius: 10px;
+    padding: 20px;
+    color: #000;
+}
+
+.table-container th,
+.table-container td {
+    vertical-align: middle;
+}
+
+.action-buttons button {
+    margin-right: 10px;
+}
+
+.modal-content {
+    background-color: #cdc8c8;
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+.btn-confirm {
+    background-color: #7f00ff;
+    color: #fff;
+}
+
+.btn-cancel {
+    background-color: #ff4b4b;
+    color: #fff;
+}
+
+.calc-select,
+.calc-input {
+    background-color: #f3f1f1;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: auto;
+    display: inline-block;
+}
+
+.btn-custom {
+    background-color: #7f00ff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 1em;
+}
+
+.label-corpsGras {
+    font-weight: bold;
+    border: 10px;
+    margin-right: 10px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

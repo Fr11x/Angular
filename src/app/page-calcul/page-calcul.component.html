@@ -1,0 +1,92 @@
+<div class="form-inscription">
+    <label class="label-corpsGras" for="corpsGrasSelect">Alcalin:</label>
+    <select id="corpsGrasSelect" class="calc-select">
+        <option>choisir l'agent alcalin</option>
+    </select>
+    <label class="label-corpsGras" for="corpsGrasSelect">Surgraissage:</label>
+    <input type="text" class="calc-input" value="0%">
+
+
+<div class="form-inscription">
+    <label class="label-corpsGras" for="corpsGrasSelect">Corps gras:</label>
+    <select (change)="selectionHuile($event)" id="corpsGrasSelect" class="calc-select">
+        <option [value]="null" selected disabled >Choisir une option</option>
+        <option *ngFor="let uneHuile of huilesData" [value]="uneHuile.id">{{uneHuile.nom}}</option>
+    
+    </select>
+    <input type="text" class="calc-input" value="0%">
+    <input type="text" class="calc-input" value="0 g">
+    <button (click)="ajouterHuile()" class="btn btn-violet">Ajouter</button>
+</div>
+<div class="form-inscription">
+    <div class="table-container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Corps gras</th>
+                    <th>iode</th>
+                    <th>I.N.S</th>
+                    <th>Douceur</th>
+                    <th>Lavant</th>
+                    <th>Dureré</th>
+                    <th>Solubilité</th>
+                    <th>Séchage</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr *ngFor="let huile of huiles">
+                    <td>{{huile?.nom }}</td>
+                    <td>0.75</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                </tr>
+                <tr>
+                    <td>Nom Corps Gras</td>
+                    <td>0.75</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                </tr>
+                <tr>
+                    <td>Nom Corps Gras</td>
+                    <td>0.75</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                </tr>
+                <tr>
+                    <td>Nom Corps Gras</td>
+                    <td>0.75</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                </tr>
+                <tr>
+                    <td>Nom Corps Gras</td>
+                    <td>0.75</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <button class="btn btn-violet align-items-center">Ajouter</button>
+</div>
